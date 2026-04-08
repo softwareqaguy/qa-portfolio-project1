@@ -1,0 +1,19 @@
+{
+  "name": "qa-portfolio-project1",
+  "version": "1.0.0",
+  "description": "Playwright smoke suite for the nopCommerce demo storefront.",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test tests/nopcommerce-smoke.spec.ts",
+    "test:headed": "playwright test tests/nopcommerce-smoke.spec.ts --headed",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.5.2"
+  }
+}
