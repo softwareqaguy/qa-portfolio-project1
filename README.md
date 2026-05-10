@@ -49,5 +49,5 @@ npm run report
 - CI execution is configured in `.github/workflows/playwright.yml`
 - This project intentionally stays small and focused rather than covering unstable end-to-end purchase flows
 
-## AI-Assited Workflow
+## AI-Assisted Workflow
 This project was built with hands-on Playwright test design and debugging. Codex CLI was used to review the repository, suggest cleanup improvements, and refine documentation and project structure while keeping the working smoke suite intact.
